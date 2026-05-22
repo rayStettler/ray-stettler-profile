@@ -1,0 +1,23 @@
+/* styles.css */
+
+* {
+	font-family: Arial;
+}
+
+.header {
+	margin-top: -1vw; 
+	margin-left: -1vw;
+	width: 101vw;
+	background-color: #00000038;
+	display: grid;
+  	place-items: center; 
+	height: 6vw;
+    border: 0.25vw solid #000000;
+}
+
+h1 {
+    font-size: 3vw; 
+	color: white; 
+    
+}
+
