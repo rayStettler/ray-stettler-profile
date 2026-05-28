@@ -31,11 +31,24 @@ h3 {
 	color: rgba(255, 255, 255, 0.929); 
 }
 
-p {
+p1 {
 	font-size: 1.5vw; 
 	color: rgba(255, 255, 255, 0.833); 
 }
 
 .appPrototype {
 	height: 40vw; 
+}
+
+.seeMore {
+	border: 0.25vw solid black; /* Creates the box outline */
+	padding: 0.5vw;           /* Adds space between the text and the border */
+	width: 10vw;            /* Sets the width of the box */
+	display: flex;
+	justify-content: center; /* Horizontal centering */
+	align-items: center;    
+	margin-right: 3vw;
+	background-color: #00A7E1; /* Optional background color */
+	float: right;
+	
 }
