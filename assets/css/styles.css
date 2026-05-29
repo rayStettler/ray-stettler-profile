@@ -38,17 +38,32 @@ p1 {
 
 .appPrototype {
 	height: 40vw; 
+	margin-bottom: 5vw;
+}
+
+.graphicDesign {
+	float: left; 
+	width: 39vw; 
+	border: 0.025vw solid black;
+}
+
+.graphicDesigns2 {
+	height: 40vw; 
+	margin-bottom: 5vw;
+	margin-right: 5vw;
+	align-items: center; 
+	background-color: blue; 
 }
 
 .seeMore {
 	border: 0.25vw solid black; /* Creates the box outline */
 	padding: 0.5vw;           /* Adds space between the text and the border */
-	width: 10vw;            /* Sets the width of the box */
+	width: 15vw;            /* Sets the width of the box */
 	display: flex;
 	justify-content: center; /* Horizontal centering */
 	align-items: center;    
 	margin-right: 3vw;
 	background-color: #00A7E1; /* Optional background color */
 	float: right;
-	
+	margin-top: 4vw;
 }
