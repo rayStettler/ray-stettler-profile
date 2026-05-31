@@ -5,29 +5,34 @@
 }
 
 .header {
-	margin-top: -1vw; 
 	margin-left: -1vw;
 	width: 101vw;
-	background-color: #00000038;
+	background-color: #0B1638;
 	display: grid;
   	place-items: center; 
-	height: 6vw;
-    border: 0.25vw solid #000000;
+	height: 7vw;
+    border-bottom: 0.25vw solid #000000;
+	position: fixed; 
+	top: 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: row; 
+	gap: 5vw;
 }
 
 h1 {
-    font-size: 3vw; 
+    font-size: 3.5vw; 
 	color: white; 
     
 }
 
 h2 {
-	font-size: 2.5vw; 
+	font-size: 3vw; 
 	color: white; 
 }
 
 h3 {
-	font-size: 2vw; 
+	font-size: 2.5vw; 
 	color: rgba(255, 255, 255, 0.929); 
 }
 
