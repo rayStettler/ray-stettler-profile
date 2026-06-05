@@ -41,6 +41,24 @@ p1 {
 	color: rgba(255, 255, 255, 0.833); 
 }
 
+
+a:link { 
+	color: white; 
+}
+
+a:visited { 
+	color: white; 
+}
+
+a:hover { 
+	color: purple; 
+}
+
+a:active { 
+	color: white; 
+}
+
+
 .appPrototype {
 	height: 40vw; 
 	margin-bottom: 5vw;
