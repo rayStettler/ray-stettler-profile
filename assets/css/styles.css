@@ -41,6 +41,10 @@ p1 {
 	color: rgba(255, 255, 255, 0.833); 
 }
 
+p2 {
+	font-size: 1.2vw; 
+	color: rgba(255, 255, 255, 0.833); 
+}
 
 a:link { 
 	color: white; 
@@ -62,7 +66,6 @@ a:active {
 .appPrototype {
 	height: 40vw; 
 	margin-bottom: 5vw;
-	
 }
 
 .graphicDesignImage {
@@ -81,6 +84,23 @@ a:active {
 	justify-content: center;
 	flex-direction: row; 
 	column-gap: 5vw;
+}
+
+.evenlySpacedImages {
+	display: flex; 
+	align-items: top; 
+	justify-content: center;
+	gap: 8vw; 
+}
+
+.evenlySpacedImages img{
+	margin-top: 3vw; 
+	max-height: 30vw; 
+	background-color: purple; 
+}
+
+.evenlySpacedImages img:hover{
+	opacity:80%; 
 }
 
 .textDescrip {
