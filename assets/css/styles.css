@@ -81,8 +81,9 @@ a:active {
 
 
 .appPrototype {
-	height: 40vw; 
+	height: 42vw; 
 	margin-bottom: 5vw;
+	background-color: blue; 
 }
 
 .graphicDesignImage {
