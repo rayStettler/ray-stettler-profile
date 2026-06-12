@@ -20,6 +20,22 @@
 	gap: 5vw;
 }
 
+#home {
+	scroll-margin-top: 7vw;
+}
+
+#graphicDesigns {
+	scroll-margin-top: 7vw;
+}
+
+#appPrototypes {
+	scroll-margin-top: 7vw;
+}
+
+#aboutMe {
+	scroll-margin-top: 7vw;
+}
+
 h1 {
     font-size: 3.5vw; 
 	color: white; 
@@ -47,6 +63,7 @@ p2 {
 }
 
 a:link { 
+	text-decoration:none;
 	color: white; 
 }
 
@@ -101,6 +118,18 @@ a:active {
 
 .evenlySpacedImages img:hover{
 	opacity:80%; 
+}
+
+.linkImages {
+	display: flex;
+}
+
+.linkImages img {
+	background-color: purple; 
+}
+
+.linkImages img:hover {
+	opacity: 80%; 
 }
 
 .textDescrip {
