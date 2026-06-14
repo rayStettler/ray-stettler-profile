@@ -36,29 +36,32 @@
 	scroll-margin-top: 7vw;
 }
 
+
 h1 {
-    font-size: 3.5vw; 
+    /* font-size: 3.5vw; */ 
+	font-size: 2.6rem; 
 	color: white; 
     
 }
 
 h2 {
-	font-size: 3vw; 
+	/*font-size: 3vw*/
+	font-size: 2.6rem; 
 	color: white; 
 }
 
 h3 {
-	font-size: 2.5vw; 
+	font-size: 2rem; 
 	color: rgba(255, 255, 255, 0.929); 
 }
 
 p1 {
-	font-size: 1.5vw; 
+	font-size: 1.4rem; 
 	color: rgba(255, 255, 255, 0.833); 
 }
 
 p2 {
-	font-size: 1.2vw; 
+	font-size: 1rem; 
 	color: rgba(255, 255, 255, 0.833); 
 }
 
@@ -81,9 +84,10 @@ a:active {
 
 
 .appPrototype {
+	
 	height: 42vw; 
 	margin-bottom: 5vw;
-	background-color: blue; 
+	
 }
 
 .graphicDesignImage {
