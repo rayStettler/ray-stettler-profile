@@ -142,6 +142,8 @@ a:active {
 		max-width: 65%; 
 		background-color: purple; 
 	}
+
+	
 }
 
 @media screen and (width < 800px) {
