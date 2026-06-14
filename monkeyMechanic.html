@@ -25,32 +25,35 @@
         
         <h1 style="text-align: center;">Monkey Mechanic</h1>
         <!-- Background -->
-        <div style="margin-top: 4rem;"> 
-            <div style=" float: left; width: 55vw; margin-right: 5vw;">
+         <div class="appPrototype" style="margin-top: 4rem;">
+            <div class="prototypeText" style="margin-bottom: 2rem; width: 100%; margin-right: 5rem;">
                 <h2 style="margin-top: 0vw;">Background</h2>
                 <p1>
-                This project was completed from January to May 2026 by a team of four for 
-                UTD’s UX capstone class. The project was pitched and presented to Capital 
-                One as a way to help young car owners do their own maintenance, especially 
-                targeting those who view themselves as incapable of doing maintenance. Leadership 
-                was rotated based on their role: researcher (my role), synthesiser, designer, and 
-                prototyper.  
+                    This project was completed from January to May 2026 by a team of four for 
+                    UTD’s UX capstone class. The project was pitched and presented to Capital 
+                    One as a way to help young car owners do their own maintenance, especially 
+                    targeting those who view themselves as incapable of doing maintenance. Leadership 
+                    was rotated based on their role: researcher (my role), synthesiser, designer, and 
+                    prototyper.  
                 </p1>
+                
             </div>
-            <img src="assets/img/monkeyMechanicImages.png" alt="Monkey Mechanic Pages" 
-                style=" width: 25vw; ">
-        </div>
+            <div class="prototypeText" >
+                <img src="assets/img/monkeyMechanicImages.png" alt="Monkey Mechanic Pages">
+            </div>
+            
+         </div>        
 
         <!-- Research -->
-        <div style="margin-top: 4rem;">
-            <h2>Research</h2>
-
-            <div style="height: 34vw;">
-                <p1 style="float: left; width: 40vw; margin-right: 5vw;">
+         <h2 style="margin-top: 4rem;">Research</h2>
+         <div class="appPrototype" style="margin-bottom: 0.5rem;">
+            <div class="prototypeText" style="width: 100%; 
+                @media screen and (width > 800px) {margin-right: 3rem;} ">
+                <p1>
                     We started our research process with self-guided secondary research so we could 
                     craft relevant, engaging, and in-depth research questions. We conducted eleven 
                     interviews and found the following attributes present in at least one of our 
-                    interviewees: <br>
+                    interviewees: 
                     <ul>
                         <li>Having an emotional attachment to their car</li>
                         <li>Being responsible for multiple cars</li>
@@ -65,27 +68,27 @@
                         <li>Not having enough time</li> 
                     </ul>
                 </p1>
-                <div>
-                    <img src="assets/img/AED-Interview-Map.png" alt="Paper Wireframes" 
-                        style = "width: 43vw; ">
-                    <figcaption style="float: right; margin-right: 0.5vw;">
-                        <p2>Analysis of Interviews (interview subjects are given their own color)</p2>
-                    </figcaption>
-                </div>
 
             </div>
+             <div class="prototypeText" style="width: 100%;
+                    @media screen and (width < 800px) {width: 100%;} "> 
+                <img src="assets/img/AED-Interview-Map.png" alt="Paper Wireframes"> 
+                <figcaption style="text-align: right;">
+                    <p2>Analysis of Interviews (interview subjects are given their own color)</p2>
+                </figcaption>
+             </div>
             
-            <p1>
-                We used our interview responses to craft a survey, which guided us forward in this 
-                project. We had 36 respondents to our survey, 26 were aged 25 or under. The majority 
-                of respondents considered themselves very reliant on their cars; only did maintenance 
-                as needed; and went to a third-party mechanic, dealership, or friends or family for 
-                their maintenance. Many respondents wrote that they felt very uncomfortable doing 
-                maintenance themselves and stated they would use an app that provided maintenance 
-                tutorials, car manual information, and guides about their cars in digestible ways. 
+         </div>
+         <p1>
+            We used our interview responses to craft a survey, which guided us forward in this 
+            project. We had 36 respondents to our survey, 26 were aged 25 or under. The majority 
+            of respondents considered themselves very reliant on their cars; only did maintenance 
+            as needed; and went to a third-party mechanic, dealership, or friends or family for 
+            their maintenance. Many respondents wrote that they felt very uncomfortable doing 
+            maintenance themselves and stated they would use an app that provided maintenance 
+            tutorials, car manual information, and guides about their cars in digestible ways. 
 
-            </p1>
-        </div>
+        </p1>
 
         <!-- Synthesis -->
         <div style="margin-top: 4rem;"> 
@@ -98,8 +101,8 @@
                 or pay for emergency repairs. We envisioned our first persona as being already willing 
                 and capable to do their own maintenance, so we hoped to support them in this process. 
             </p1> 
-            <br>
-            <p1>
+            <br><br>
+            <p1 style="margin-bottom: 1rem">
                 From our survey, we found that many young adults are not at all comfortable doing 
                 maintenance themselves. This lead us to create a new persona, also a young adult who 
                 lacks free time and finances, but is not at all willing to do their own maintenance. 
@@ -107,35 +110,39 @@
                 accessible to people who don’t know anything about cars, but would benefit from being 
                 able to do their own maintenance. 
             </p1>
-            <br>
-            <img src="assets/img/AED-Persona1.png" alt="Monkey Mechanic Persona 1" 
-                style="width: 40vw; margin-top: 3vw; margin-left: 2vw;">
-            <img src="assets/img/AED-Persona2.png" alt="Monkey Mechanic Persona 2" 
-                style="width: 40vw; margin-top: 3vw; float: right; margin-right: 2vw;"> 
+            <br><br>
+            <div class="appPrototype">
+                <img src="assets/img/AED-Persona1.png" alt="Monkey Mechanic Persona 1">
+                <img src="assets/img/AED-Persona2.png" alt="Monkey Mechanic Persona 2"> 
+            </div>
+            
         </div>
         
         <!-- Design Iterations -->
         <div style="margin-top: 4rem;">
             <h2>Design Iterations</h2>
-            <div>
-                <p1 style="float: left; width: 40vw; margin-right: 7vw;">
-                    We determined that our goal should be making DIY maintenance more approachable to people 
-                    who would benefit from the option, but are too intimidated to start. We decided on two 
-                    main ways we could do this: a set of guides that would instruct the user precisely on 
-                    how to approach different maintenance tasks, and an AR camera that would scan the 
-                    user’s engine to help them identify parts of their car and potential problems. 
+            <div class="appPrototype">
+                <div class="prototypeText"style="width: 100%; 
+                    @media screen and (width > 800px) {margin-right: 3rem;} ">
+                    <p1 style="margin-bottom: 1rem">
+                        We determined that our goal should be making DIY maintenance more approachable to people 
+                        who would benefit from the option, but are too intimidated to start. We decided on two 
+                        main ways we could do this: a set of guides that would instruct the user precisely on 
+                        how to approach different maintenance tasks, and an AR camera that would scan the 
+                        user’s engine to help them identify parts of their car and potential problems. 
+                        
+                    </p1>
                     
-                </p1>
-                
-                <div style="margin-right: 0; text-align:right;">
-                    <img src="assets/img/AED-paper-wireframes.png" alt="Paper Wireframes" 
-                        style = "width: 40vw;">
-                    <figcaption>
+                </div>
+                                
+                <div>
+                    <img src="assets/img/AED-paper-wireframes.png" alt="Paper Wireframes" style="width: 100%;">
+                    <figcaption style="text-align: right;">
                         <p2>Early Monkey Mechanic paper wireframes</p2>
                     </figcaption>
                 </div>
-                
             </div>
+            
             
             <br> <br>
             <div>
@@ -217,7 +224,7 @@
                 (like buttons not working). 
             </p1>
 
-            <div class="evenlySpacedImages">
+            <div class="finalPrototypeImage">
                 <a href="https://www.figma.com/proto/Tyd2G9lJEkAeRPJUFgapOf/AJAR-Design?node-id=1141-711&starting-point-node-id=1141%3A711&t=MoDZ2cIqOHp1iSQn-1" 
                         target="_blank">
                     <img src="assets/img/monkeyMechanicImages.png" alt="Final Monkey Mechanic Prototype">
