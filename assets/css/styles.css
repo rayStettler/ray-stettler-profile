@@ -86,26 +86,47 @@ a:active {
 	color: white; 
 }
 
-
-.appPrototype {
-	/*height: 42vw; 
-	margin-bottom: 5vw;*/ 
-	display: flex;
-	height: 34rem; 
-	margin-bottom: 4rem;
-	background-color: blue; 
-	grid-template-columns: repeat(2, 1fr);
+@media screen and (width > 600px) 
+{
+	.appPrototype {
+		/*height: 42vw; 
+		margin-bottom: 5vw;*/ 
+		display: flex;
+		width: 96%; 
+		margin-bottom: 4rem;
+		background-color: blue; 
+		flex-direction: row; 
+		gap: 4rem;
+		grid-template-columns: repeat(2, 1fr);
+		
+	}
+	.appPrototype img {
+		width: 100%; 
+		height: audo; 
+	}
 	
+}
+
+@media screen and (width < 600px) {
+	.appPrototype {
+		display: flex;
+		margin-bottom: 4rem;
+		background-color: blue; 
+		flex-direction: column; 
+		gap: 1rem;
+		grid-template-columns: repeat(1, 1fr);
+		
+	}
+	.appPrototype img { 
+		width: 100%;  
+		height: audo; 
+		object-fit: cover; 
+	}
 }
 
 .prototypeText {
 	display: flex; 
 	flex-direction: column; 
-}
-
-.appPrototype img {
-	height: 34rem; 
-	width: audo; 
 }
 
 .graphicDesignImage {
