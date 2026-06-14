@@ -4,13 +4,17 @@
 	font-family: Arial;
 }
 
+@media (width > 652) {
+
+}
+
 .header {
 	margin-left: -1vw;
 	width: 101vw;
 	background-color: #0B1638;
 	display: grid;
   	place-items: center; 
-	height: 7vw;
+	height: 6rem;
     border-bottom: 0.25vw solid #000000;
 	position: fixed; 
 	top: 0;
@@ -21,19 +25,19 @@
 }
 
 #home {
-	scroll-margin-top: 7vw;
+	scroll-margin-top: 6rem;
 }
 
 #graphicDesigns {
-	scroll-margin-top: 7vw;
+	scroll-margin-top: 6rem;
 }
 
 #appPrototypes {
-	scroll-margin-top: 7vw;
+	scroll-margin-top: 6rem;
 }
 
 #aboutMe {
-	scroll-margin-top: 7vw;
+	scroll-margin-top: 6rem;
 }
 
 
@@ -84,10 +88,24 @@ a:active {
 
 
 .appPrototype {
+	/*height: 42vw; 
+	margin-bottom: 5vw;*/ 
+	display: flex;
+	height: 34rem; 
+	margin-bottom: 4rem;
+	background-color: blue; 
+	grid-template-columns: repeat(2, 1fr);
 	
-	height: 42vw; 
-	margin-bottom: 5vw;
-	
+}
+
+.prototypeText {
+	display: flex; 
+	flex-direction: column; 
+}
+
+.appPrototype img {
+	height: 34rem; 
+	width: audo; 
 }
 
 .graphicDesignImage {
@@ -96,7 +114,7 @@ a:active {
 	justify-content: flex-start;
 	justify-content: center;
 	flex-direction: row; 
-	margin-bottom: 2vw;  
+	margin-bottom: 1.5rem;  
 	background-color: rgba(255, 255, 255, 0.432); 
 }
 
@@ -105,14 +123,15 @@ a:active {
 	justify-content: flex-start;
 	justify-content: center;
 	flex-direction: row; 
-	column-gap: 5vw;
+	column-gap: 4rem;
 }
 
 .evenlySpacedImages {
 	display: flex; 
 	align-items: top; 
 	justify-content: center;
-	gap: 8vw; 
+	text-align: center; 
+	
 }
 
 .evenlySpacedImages img{
@@ -148,13 +167,13 @@ a:active {
 
 .rect {
 	background-color: #101f4d; 
-	width: 5vw; 
+	width: 4rem; 
 }
 
 .seeMore {
 	border: 0.25vw solid black; /* Creates the box outline */
 	padding: 0.5vw;           /* Adds space between the text and the border */
-	width: 15vw;            /* Sets the width of the box */
+	width: 12rem;            /* Sets the width of the box */
 	display: flex;
 	justify-content: center; /* Horizontal centering */
 	align-items: center;    
