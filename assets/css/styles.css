@@ -95,8 +95,8 @@ a:active {
 }
 
 
-
-@media screen and (width > 800px) 
+/*Purple*/
+@media screen and (min-width: 770px) 
 {
 	.appPrototype {
 		display: flex;
@@ -105,6 +105,7 @@ a:active {
 		flex-direction: row; 
 		gap: 4rem;
 		grid-template-columns: repeat(2, 1fr);
+		background-color: purple;
 	}
 	
 	.appPrototype img {
@@ -164,15 +165,15 @@ a:active {
 	
 		
 }
-
-@media screen and (width < 800px) {
+/*Red*/
+@media only screen and (max-width: 770px) {
 	.appPrototype {
 		display: flex;
 		margin-bottom: 4rem;
 		flex-direction: column; 
 		gap: 0.5rem;
 		grid-template-columns: repeat(1, 1fr);
-				
+		background-color: red;
 	}
 
 	.appPrototype img { 
