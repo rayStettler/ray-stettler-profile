@@ -126,14 +126,16 @@ a:active {
 		display: flex;
 		flex-direction: column; 
 		width: 46%;
-		background-color: rgba(255, 255, 255, 0.432); 
+		height: auto;
+		 
 	}
 	
 	.designsContainer figcaption {
 		display: flex;
 		flex-direction: column; 
 		justify-content: flex-end;
-		background-color: blue; 
+		margin-bottom: 0%;
+		
 	}
 	
 	h4 {
