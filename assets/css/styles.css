@@ -86,6 +86,15 @@ a:active {
 	color: white; 
 }
 
+.evenlySpacedImages {
+	display: flex; 
+	align-items: top; 
+	justify-content: center;
+	justify-content: space-between; 
+	text-align: center; 
+}
+
+
 
 @media screen and (width > 800px) 
 {
@@ -126,6 +135,7 @@ a:active {
 		justify-content: flex-end;
 		background-color: blue; 
 	}
+	
 	h4 {
 		font-size: 3vw; 
 		color: white; 
@@ -143,7 +153,14 @@ a:active {
 		max-width: 65%; 
 		background-color: purple; 
 	}
+
+	.evenlySpacedImages img{
+		margin-top: 3vw; 
+		height: 30vw; 
+		background-color: purple; 
+	}
 	
+		
 }
 
 @media screen and (width < 800px) {
@@ -199,6 +216,25 @@ a:active {
 		max-width: 100%; 
 		background-color: purple; 
 	}
+
+	.evenlySpacedImages {
+		display: flex;
+		justify-content: flex-start;
+		width: 96%; 
+		margin-bottom: 4rem;
+		flex-direction: column; 
+		gap: 4rem;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.evenlySpacedImages img{
+		
+		margin-top: 3vw; 
+		height: 55vw; 
+		background-color: purple; 
+	}
+
+	
 }
 
 .prototypeText {
@@ -210,19 +246,6 @@ a:active {
 	opacity:80%; 
 }
 
-.evenlySpacedImages {
-	display: flex; 
-	align-items: top; 
-	justify-content: center;
-	justify-content: space-between; 
-	text-align: center; 
-}
-
-.evenlySpacedImages img{
-	margin-top: 3vw; 
-	max-height: 30vw; 
-	background-color: purple; 
-}
 
 .evenlySpacedImages img:hover{
 	opacity:80%; 
